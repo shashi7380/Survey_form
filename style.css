@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/09/11/43/students-1084597_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-position: fixed;
+}
+main{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.header{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(21, 123, 224, 0.705);
+
+    
+}
+#description,p{
+    font-size: 20px;
+    font-style: italic;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0% auto;
+
+}
+
+#title, #description{
+    text-align: center;
+
+}
+#survey-form{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-top: 2%;
+    background-color:rgba(192, 192, 192, 0.541);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#survey-form ,#label-name ,#name{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    height: 50%; 
+    
+}
+#survey-form,#email-label,#email{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    height: 50%;
+}
+#survey-form,#number-label-label,#number{
+
+    width: 80%;
+    height: auto;
+    margin: 0% auto;
+    height: 50%;
+}
+ #form-group,textarea{  
+    font-size: 20px;
+}
+#name,#email,#number{
+    font-size: 20px;
+}
+
+
+
